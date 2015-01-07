@@ -15,10 +15,4 @@ router.get('/', function(req, res) {
   });
 });
 
-router.get('/folder/',function(req, res){
-  res.render('filemanager',{
-    files: fs.get('/folder')
-  });
-});
-
 module.exports = router;
