@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var files = require('file');
+var fs = require('file');
 
 /* GET home page. */
 router.get('/', function(req, res) {
@@ -11,7 +11,13 @@ router.get('/', function(req, res) {
   */
   res.render('filemanager', {
      title: 'Anadolu Panteri Desktop',
-     files: files.get('/')
+     fs: files.get('/')
+  });
+});
+
+router.get('/folder/',function(req, res){
+  res.render('filemanager',{
+    files: fs.get('/folder')
   });
 });
 
