@@ -10,16 +10,16 @@ var desktop = function(){
   };
   this.move = function(){
 
-  },
-  close: function(){
+  };
+  this.close =  function(){
 
-  },
-  minimize: function(){
+  };
+  this.minimize = function(){
 
-  },
-  maximize: function(){
+  };
+  this.maximize = function(){
 
-  }
+  };
 };
 
 desktop.prototype = new Ap();
