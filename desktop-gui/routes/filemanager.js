@@ -13,7 +13,7 @@ router.get('/', function(req, res) {
   });
 });
 
-router.get('/fs',function(req, res){
+router.get('/fs/folder',function(req, res){
   res.json({ 'small' : 'tall' });
 });
 
