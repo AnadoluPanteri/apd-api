@@ -1,4 +1,4 @@
-var desktop = function(){
+var Desktop = function(){
   this.debug = true;
   this.icon = function(name, file, click){
 
@@ -23,4 +23,4 @@ var desktop = function(){
   };
 };
 
-desktop.prototype = new Ap();
+Desktop.prototype = new Ap();
