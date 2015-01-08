@@ -11,7 +11,7 @@ var ApCore = function(){
     }
   }
 
-  this.moduleLoad = function(src, callback){
+  this.js = function(src, callback){
     var s,
     r,
     t;
@@ -31,5 +31,7 @@ var ApCore = function(){
     t.parentNode.insertBefore(s, t);
   }
 
-
+  this.jquery = function(function){
+    this.js()
+  }
 };
