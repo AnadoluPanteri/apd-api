@@ -1,1 +1,1 @@
-var ap.prototype = {};
+var ap.prototype = function(){};
