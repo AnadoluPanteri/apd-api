@@ -1,7 +1,7 @@
 /*
   Anadolu Panteri JS Utils
 */
-var Ap = function(){
+var ApCore = function(){
   this.ver = "0.1";
   this.module = false;
   this.debug = false;
