@@ -11,4 +11,4 @@ var Ajax = function(){
   };
 };
 
-Ajax.prototype = new Ap();
+Ajax.prototype = new ApCore();

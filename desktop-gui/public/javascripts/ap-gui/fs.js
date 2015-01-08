@@ -1,7 +1,7 @@
 var Fs = {
   this.debug = true;
   this.module = 'Fs';
-  
+
   this.folder = function(folder){
 
   };
@@ -15,4 +15,4 @@ var Fs = {
   };
 };
 
-Fs.prototype = new Ap();
+Fs.prototype = new ApCore();
