@@ -5,22 +5,22 @@ var Desktop = function(){
   this.icon = function(name, file, click){
 
   };
-  this.window = function(title){
+  this.window = function(id,title){
 
   };
   this.run = function(command){
 
   };
-  this.move = function(){
+  this.move = function(windowId){
 
   };
-  this.close =  function(){
+  this.close =  function(windowId){
 
   };
-  this.minimize = function(){
+  this.minimize = function(windowId){
 
   };
-  this.maximize = function(){
+  this.maximize = function(windowId){
 
   };
 };
