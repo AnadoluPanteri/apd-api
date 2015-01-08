@@ -7,6 +7,8 @@ var Ajax = function(){
   };
 
   this.json = function(data){
-    
+
   };
 };
+
+Ajax.prototype = new Ap();
