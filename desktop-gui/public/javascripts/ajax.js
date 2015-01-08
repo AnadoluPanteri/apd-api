@@ -5,4 +5,8 @@ var Ajax = function(){
   this.request = function(config,result){
 
   };
+
+  this.json = function(data){
+    
+  };
 };
