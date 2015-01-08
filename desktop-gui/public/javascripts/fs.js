@@ -12,4 +12,4 @@ var Fs = {
   };
 };
 
-Fs.prototype = new 
+Fs.prototype = new Ap();
