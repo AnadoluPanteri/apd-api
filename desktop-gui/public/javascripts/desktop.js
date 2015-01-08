@@ -1,11 +1,11 @@
 var desktop = function(){
-  icon: function(name, file, click){
+  this.icon = function(name, file, click){
 
-  },
-  window: function(title){
+  };
+  this.window = function(title){
 
-  },
-  run: function(command){
+  };
+  this.run = function(command){
 
   },
   move: function(){
