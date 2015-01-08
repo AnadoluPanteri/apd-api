@@ -8,6 +8,12 @@ var router = express.Router();
 get all files to render home
 */
 router.get('/', function(req, res) {
+  res.render('filemanager', {
+     title: 'Anadolu Panteri Desktop | Dosya Yöneticisi'
+  });
+});
+
+router.get('/folder',function(req, res){
   res.json({ 'small' : 'tall' });
 });
 
