@@ -14,7 +14,7 @@ router.get('/', function(req, res) {
 });
 
 router.get('/fs/folder',function(req, res){
-  res.redirect('http://www.google.com');
+  res.jsonp({ 'small' : 'tall' });
 });
 
 module.exports = router;
