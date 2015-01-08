@@ -1,8 +1,8 @@
-filemanager.one = function(){
-
+filemanager.one = function(req, res){
+  
 };
 
 
-filemanager.main = function(){
+filemanager.main = function(req, res){
 
 };
