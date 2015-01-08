@@ -4,5 +4,5 @@
 
 var apui = new ApCore();
 apui.jquery(function(){
-  console.log($(html));
+  console.log($("body"));
 });
