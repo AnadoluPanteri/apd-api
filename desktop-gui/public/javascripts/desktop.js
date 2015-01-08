@@ -1,4 +1,4 @@
-var desktop = {
+var desktop = function(){
   icon: function(name, file, click){
 
   },
@@ -22,4 +22,4 @@ var desktop = {
   }
 };
 
-Desktop.prototype = new Ap();
+desktop.prototype = new Ap();
