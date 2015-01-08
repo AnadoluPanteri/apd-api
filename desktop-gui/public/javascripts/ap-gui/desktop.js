@@ -1,7 +1,7 @@
 var Desktop = function(){
   this.debug = true;
   this.module = 'Desktop';
-  
+
   this.icon = function(name, file, click){
 
   };
@@ -25,4 +25,4 @@ var Desktop = function(){
   };
 };
 
-Desktop.prototype = new Ap();
+Desktop.prototype = new ApCore();
