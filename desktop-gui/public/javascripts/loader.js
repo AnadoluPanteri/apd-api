@@ -3,6 +3,3 @@
 */
 
 var apui = new ApCore();
-apui.jquery(function(){
-  
-});
