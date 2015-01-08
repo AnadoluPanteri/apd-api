@@ -1,4 +1,4 @@
-var Fs = {
+var Fs = function(){
   this.debug = true;
   this.module = 'Fs';
 
