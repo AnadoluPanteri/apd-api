@@ -1,13 +1,15 @@
-var apfs = {
-  folder: function(folder){
+var Fs = {
+  this.folder = function(folder){
 
-  },
-  file: function(name, type){
+  };
 
-  },
-  binary: function(name, type){
+  this.file = function(name, type){
 
-  }
+  };
+
+  this.binary = function(name, type){
+
+  };
 };
 
-ap.load(apfs);
+Fs.prototype = new 

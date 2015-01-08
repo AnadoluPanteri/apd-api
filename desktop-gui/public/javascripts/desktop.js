@@ -1,6 +1,7 @@
 var Desktop = function(){
   this.debug = true;
   this.module = 'Desktop';
+  
   this.icon = function(name, file, click){
 
   };
