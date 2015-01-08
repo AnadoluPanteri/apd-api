@@ -14,6 +14,7 @@ router.get('/', function(req, res) {
 });
 
 router.get('/folder',function(req, res){
+  res.type('application/json');
   res.format({
     'text/plain': function(){
       res.send('hey');
