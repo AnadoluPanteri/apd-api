@@ -1,4 +1,4 @@
-var ap = function(){
+var Ap = function(){
   this.ver = "0.1";
   this.module = false;
   this.debug = false;
