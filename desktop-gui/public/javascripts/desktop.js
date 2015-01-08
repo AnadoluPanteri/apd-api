@@ -1,4 +1,5 @@
 var desktop = function(){
+  this.debug = true;
   this.icon = function(name, file, click){
 
   };
