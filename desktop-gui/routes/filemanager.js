@@ -14,7 +14,7 @@ router.get('/', function(req, res) {
 });
 
 router.get('/fs',function(req, res){
-  res.jsonp({ 'small' : 'tall' });
+  res.json({ 'small' : 'tall' });
 });
 
 module.exports = router;
