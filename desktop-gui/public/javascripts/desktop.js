@@ -7,8 +7,8 @@ var desktop = function(){
   };
   this.run = function(command){
 
-  },
-  move: function(){
+  };
+  this.move = function(){
 
   },
   close: function(){
