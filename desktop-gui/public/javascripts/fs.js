@@ -1,4 +1,7 @@
 var Fs = {
+  this.debug = true;
+  this.module = 'Fs';
+  
   this.folder = function(folder){
 
   };
