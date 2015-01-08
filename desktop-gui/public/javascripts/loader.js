@@ -2,5 +2,5 @@
   Core implements loader.js
 */
 
-var apui = new Ap();
+var apui = new ApCore();
 apui.jquery();
