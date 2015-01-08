@@ -5,5 +5,5 @@ filemanager.one = function(req, res){
 
 
 filemanager.main = function(req, res){
-
+  res.render('index', { title: 'Anadolu Panteri Desktop' });
 };
