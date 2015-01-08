@@ -22,4 +22,4 @@ var desktop = {
   }
 };
 
-ap.load(desktop);
+ap.desktop = desktop;
