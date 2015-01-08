@@ -1,1 +1,3 @@
-var ap.prototype = function(){};
+var ap = function(){
+  this.ver = "0.1";
+};
