@@ -11,13 +11,6 @@ router.get('/', function(req, res) {
   res.render('filemanager', {
      title: 'Anadolu Panteri Desktop | Dosya Yöneticisi'
   });
-
-  var folder = req.params.folder;
-  if(req.params.folder){
-    res.json({
-      'deneme' : 'deneme'
-    });
-  }
 });
 
 module.exports = router;
