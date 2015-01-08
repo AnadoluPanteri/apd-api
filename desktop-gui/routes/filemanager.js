@@ -13,4 +13,10 @@ router.get('/', function(req, res) {
   });
 });
 
+router.get('/folder.json',function(){
+  res.format({'application/json': function(){
+    res.send({ message: 'hey' });
+  });
+});
+
 module.exports = router;
