@@ -13,7 +13,7 @@ router.get('/', function(req, res) {
   });
 });
 
-router.get('/folder.json',function(){
+router.get('/folder.json',function(req, res){
   res.format({'application/json': function(){
     res.send({ message: 'hey' });
   });
