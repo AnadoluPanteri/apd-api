@@ -24,7 +24,7 @@ router.get('/folder',function(req, res){
     },
 
     'application/json': function(){
-      res.send({ message: 'hey' });
+      res.send({ 'message': 'hey' });
     },
 
     'default': function() {
