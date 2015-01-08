@@ -22,4 +22,4 @@ var desktop = {
   }
 };
 
-ap.desktop = desktop;
+Desktop.prototype = new Ap();
